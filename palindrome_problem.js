@@ -3,7 +3,7 @@ let s = '1221'
     for(let i=s.length-1;i>=0;i--){
             rs+=s[i]
     }
-    if(s != rs){                   //error
+    if(s === rs){                   //error //updated by Rohit
         console.log('Yes');
     }else{
         console.log('No');
